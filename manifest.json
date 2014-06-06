@@ -12,7 +12,7 @@
     "128": "image/icon.png"
   },
   "permissions": [    
-    "http://192.168.2.85:3000/"
+    "http://kuttimama.com/"
   ]
   
 }

@@ -63,7 +63,7 @@ $(document).ready(function(){
 		data.append('x',$('#position-x').val());
 		data.append('y',$('#position-y').val());
 		$.ajax({
-			    url: 'http://192.168.2.85:3000/api/v1/editor',
+			    url: 'http://kuttimama.com/api/v1/editor',
 			    data: data,
 			    cache: false,
 			    dataType:'JSON',
