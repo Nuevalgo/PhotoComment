@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "FbFotoo",
+  "description": "This extension helps you to create photo comments in malayalam.",
+  "version": "1.0",  
+  "app": {
+    "background": {
+      "scripts": ["script/background.js"]
+    }
+  },
+   "icons": {
+    "128": "image/icon.png"
+  },
+  "permissions": [    
+    "http://192.168.2.85:3000/"
+  ]
+  
+}
