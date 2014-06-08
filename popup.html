@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>FbFotoo</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" href="style/colpick.css" type="text/css"/>
     <script type="text/javascript" src="script/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="script/script.js"></script>
     <script type="text/javascript" src="script/jquery-ui-1.10.4.custom.min.js"></script>
     <script src="script/colpick.js" type="text/javascript"></script>
+    <script src="script/global.js" type="text/javascript"></script>
     
     
   </head>
@@ -34,10 +36,12 @@
     <span class="hidden">
     <input type="file" id="comment-image" accept="image/*"  >
     </span> </div>
-  <div class="control">
-    <div>
-     <!-- <label for="comment">Comment</label>-->
-    </div>
+    <div class="control" id="lang">
+    <label>Language</label>    
+    <input class="lan" type="radio" id="lan-ml"  data-dict="ml_ml" name="language"  checked="checked" > മലയാളം
+    <input class="lan" type="radio" id="lan-en" data-dict="en_ml" name="language" > English
+  </div>
+  <div class="control">   
     <input type="text" id="comment" placeholder="Enter your comments">
   </div>
   <div class="control">
